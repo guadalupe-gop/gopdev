@@ -5,7 +5,7 @@
 html {
   font-size: 62.5%;
 }
-header .header-title {
+main h3 {
   width: 90%;
   height: 80px;
   margin: 0 auto;
@@ -18,12 +18,32 @@ header .header-title {
   color: #6363ff;
 }
 main .main-container {
-  width: 80%;
-  height: 80vh;
+  width: 100%;
+  height: 40vh;
   margin: 0 auto;
   /* background-color: aquamarine;*/
 }
 main .main-container img {
   width: 100%;
   overflow: hidden;
+}
+
+main .portada {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  /* max-width: 700px; */
+  height: 140px;
+  background-color: brown;
+  margin-bottom: 65px;
+}
+main .portada-photo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: cornsilk;
+  border: 1px solid red;
+  top: 30px;
+  left: calc(50% - 30%);
+  border-radius: 50%;
 }
