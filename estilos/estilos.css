@@ -7,8 +7,9 @@ html {
 }
 header .header-title {
   width: 90%;
-  height: 20px;
+  height: 80px;
   margin: 0 auto;
+  margin-bottom: 20px;
   padding: 20px;
   text-align: center;
   font-size: 3rem;
@@ -17,7 +18,7 @@ header .header-title {
   color: #6363ff;
 }
 main .main-container {
-  width: 60%;
+  width: 80%;
   height: 80vh;
   margin: 0 auto;
   /* background-color: aquamarine;*/
